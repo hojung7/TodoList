@@ -1,0 +1,116 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 회원가입 박스 스타일 */
+.signup-container {
+    background: white;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 폼 그룹 스타일 (label 아래 input 배치) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 10px auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* 입력 필드 스타일 */
+#email, #username, #password, #confirm-password, #birthdate, #phone {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* 생년월일과 휴대폰 번호 입력 필드 스타일 */
+#birthdate, #phone {
+    background-color: #f9f9f9;
+}
+
+/* 버튼 스타일 */
+button {
+    width: 90%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 이메일 확인 버튼 스타일 */
+#check-email-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check-email-btn:hover {
+    background-color: #218838;
+}
+
+/* 이메일 및 비밀번호 확인 메시지 스타일 */
+#email-message, #password-message {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* 비밀번호 확인 메시지 색상 */
+#password-message {
+    font-weight: bold;
+}
+
+/* 회원가입 링크 스타일 */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
